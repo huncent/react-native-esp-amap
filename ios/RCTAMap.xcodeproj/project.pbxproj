@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4F93B81E2FC88D00FFBB10 /* RCTAMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93A91E2FC88C00FFBB10 /* RCTAMapAnnotationView.m */; };
+		6B4F93B91E2FC88D00FFBB10 /* RCTAMapAnnotationViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93AB1E2FC88C00FFBB10 /* RCTAMapAnnotationViewManager.m */; };
+		6B4F93BA1E2FC88D00FFBB10 /* RCTAMapCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93AD1E2FC88D00FFBB10 /* RCTAMapCalloutView.m */; };
+		6B4F93BB1E2FC88D00FFBB10 /* RCTAMapCalloutViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93AF1E2FC88D00FFBB10 /* RCTAMapCalloutViewManager.m */; };
+		6B4F93BC1E2FC88D00FFBB10 /* RCTAMapLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93B11E2FC88D00FFBB10 /* RCTAMapLocationManager.m */; };
+		6B4F93BD1E2FC88D00FFBB10 /* RCTAMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93B31E2FC88D00FFBB10 /* RCTAMap.m */; };
+		6B4F93BE1E2FC88D00FFBB10 /* RCTAMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93B51E2FC88D00FFBB10 /* RCTAMapManager.m */; };
+		6B4F93BF1E2FC88D00FFBB10 /* RCTConvert+AMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F93B71E2FC88D00FFBB10 /* RCTConvert+AMapKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B4F93761E2FC71300FFBB10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B4F93781E2FC71300FFBB10 /* libRCTAMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTAMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4F93A81E2FC88C00FFBB10 /* RCTAMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAMapAnnotationView.h; sourceTree = "<group>"; };
+		6B4F93A91E2FC88C00FFBB10 /* RCTAMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAMapAnnotationView.m; sourceTree = "<group>"; };
+		6B4F93AA1E2FC88C00FFBB10 /* RCTAMapAnnotationViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAMapAnnotationViewManager.h; sourceTree = "<group>"; };
+		6B4F93AB1E2FC88C00FFBB10 /* RCTAMapAnnotationViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAMapAnnotationViewManager.m; sourceTree = "<group>"; };
+		6B4F93AC1E2FC88C00FFBB10 /* RCTAMapCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAMapCalloutView.h; sourceTree = "<group>"; };
+		6B4F93AD1E2FC88D00FFBB10 /* RCTAMapCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAMapCalloutView.m; sourceTree = "<group>"; };
+		6B4F93AE1E2FC88D00FFBB10 /* RCTAMapCalloutViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAMapCalloutViewManager.h; sourceTree = "<group>"; };
+		6B4F93AF1E2FC88D00FFBB10 /* RCTAMapCalloutViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAMapCalloutViewManager.m; sourceTree = "<group>"; };
+		6B4F93B01E2FC88D00FFBB10 /* RCTAMapLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAMapLocationManager.h; sourceTree = "<group>"; };
+		6B4F93B11E2FC88D00FFBB10 /* RCTAMapLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAMapLocationManager.m; sourceTree = "<group>"; };
+		6B4F93B21E2FC88D00FFBB10 /* RCTAMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAMap.h; sourceTree = "<group>"; };
+		6B4F93B31E2FC88D00FFBB10 /* RCTAMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAMap.m; sourceTree = "<group>"; };
+		6B4F93B41E2FC88D00FFBB10 /* RCTAMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAMapManager.h; sourceTree = "<group>"; };
+		6B4F93B51E2FC88D00FFBB10 /* RCTAMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAMapManager.m; sourceTree = "<group>"; };
+		6B4F93B61E2FC88D00FFBB10 /* RCTConvert+AMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+AMapKit.h"; sourceTree = "<group>"; };
+		6B4F93B71E2FC88D00FFBB10 /* RCTConvert+AMapKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+AMapKit.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4F93751E2FC71300FFBB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4F936F1E2FC71300FFBB10 = {
+			isa = PBXGroup;
+			children = (
+				6B4F937A1E2FC71300FFBB10 /* RCTAMap */,
+				6B4F93791E2FC71300FFBB10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4F93791E2FC71300FFBB10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F93781E2FC71300FFBB10 /* libRCTAMap.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4F937A1E2FC71300FFBB10 /* RCTAMap */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F93A81E2FC88C00FFBB10 /* RCTAMapAnnotationView.h */,
+				6B4F93A91E2FC88C00FFBB10 /* RCTAMapAnnotationView.m */,
+				6B4F93AA1E2FC88C00FFBB10 /* RCTAMapAnnotationViewManager.h */,
+				6B4F93AB1E2FC88C00FFBB10 /* RCTAMapAnnotationViewManager.m */,
+				6B4F93AC1E2FC88C00FFBB10 /* RCTAMapCalloutView.h */,
+				6B4F93AD1E2FC88D00FFBB10 /* RCTAMapCalloutView.m */,
+				6B4F93AE1E2FC88D00FFBB10 /* RCTAMapCalloutViewManager.h */,
+				6B4F93AF1E2FC88D00FFBB10 /* RCTAMapCalloutViewManager.m */,
+				6B4F93B01E2FC88D00FFBB10 /* RCTAMapLocationManager.h */,
+				6B4F93B11E2FC88D00FFBB10 /* RCTAMapLocationManager.m */,
+				6B4F93B21E2FC88D00FFBB10 /* RCTAMap.h */,
+				6B4F93B31E2FC88D00FFBB10 /* RCTAMap.m */,
+				6B4F93B41E2FC88D00FFBB10 /* RCTAMapManager.h */,
+				6B4F93B51E2FC88D00FFBB10 /* RCTAMapManager.m */,
+				6B4F93B61E2FC88D00FFBB10 /* RCTConvert+AMapKit.h */,
+				6B4F93B71E2FC88D00FFBB10 /* RCTConvert+AMapKit.m */,
+			);
+			path = RCTAMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4F93771E2FC71300FFBB10 /* RCTAMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4F93811E2FC71300FFBB10 /* Build configuration list for PBXNativeTarget "RCTAMap" */;
+			buildPhases = (
+				6B4F93741E2FC71300FFBB10 /* Sources */,
+				6B4F93751E2FC71300FFBB10 /* Frameworks */,
+				6B4F93761E2FC71300FFBB10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTAMap;
+			productName = RCTAMap;
+			productReference = 6B4F93781E2FC71300FFBB10 /* libRCTAMap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B4F93701E2FC71300FFBB10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhuyoujie;
+				TargetAttributes = {
+					6B4F93771E2FC71300FFBB10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 87KAGZMK8W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6B4F93731E2FC71300FFBB10 /* Build configuration list for PBXProject "RCTAMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B4F936F1E2FC71300FFBB10;
+			productRefGroup = 6B4F93791E2FC71300FFBB10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B4F93771E2FC71300FFBB10 /* RCTAMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4F93741E2FC71300FFBB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4F93B91E2FC88D00FFBB10 /* RCTAMapAnnotationViewManager.m in Sources */,
+				6B4F93BD1E2FC88D00FFBB10 /* RCTAMap.m in Sources */,
+				6B4F93BC1E2FC88D00FFBB10 /* RCTAMapLocationManager.m in Sources */,
+				6B4F93BB1E2FC88D00FFBB10 /* RCTAMapCalloutViewManager.m in Sources */,
+				6B4F93B81E2FC88D00FFBB10 /* RCTAMapAnnotationView.m in Sources */,
+				6B4F93BE1E2FC88D00FFBB10 /* RCTAMapManager.m in Sources */,
+				6B4F93BF1E2FC88D00FFBB10 /* RCTConvert+AMapKit.m in Sources */,
+				6B4F93BA1E2FC88D00FFBB10 /* RCTAMapCalloutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B4F937F1E2FC71300FFBB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B4F93801E2FC71300FFBB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B4F93821E2FC71300FFBB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 87KAGZMK8W;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../ios/libs";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/Image/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B4F93831E2FC71300FFBB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 87KAGZMK8W;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../ios/libs";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/Image/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4F93731E2FC71300FFBB10 /* Build configuration list for PBXProject "RCTAMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4F937F1E2FC71300FFBB10 /* Debug */,
+				6B4F93801E2FC71300FFBB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4F93811E2FC71300FFBB10 /* Build configuration list for PBXNativeTarget "RCTAMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4F93821E2FC71300FFBB10 /* Debug */,
+				6B4F93831E2FC71300FFBB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B4F93701E2FC71300FFBB10 /* Project object */;
+}

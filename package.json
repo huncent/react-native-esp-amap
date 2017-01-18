@@ -1,0 +1,29 @@
+{
+  "name": "react-native-esp-amap",
+  "version": "0.0.1",
+  "description": "AMap sdk for react native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youjieni123/react-native-esp-amap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youjieni123/react-native-esp-amap/issues"
+  },
+  "files": [
+    "android",
+    "ios",
+    "src",
+    "index.js"
+  ],
+  "devDependencies": {
+    "react": "^15.1.0",
+    "react-native": "^0.28.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/youjieni123/react-native-esp-amap#readme"
+}
